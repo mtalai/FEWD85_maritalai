@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="normalize.css" rel="stylesheet">
+	<title>Two Column</title>
+
+	<h1>Coffee is the best</h1>
+</head>
+<body>
+	<main class="wrapper">
+	<header class="main-nav">
+	<nav class="top-nav"></nav>
+	<section class="articles"></section>
+	<section class="sidebar"></section>
+	<footer class="copyright"></footer>
+</main>
+</header>
+
+</html>
