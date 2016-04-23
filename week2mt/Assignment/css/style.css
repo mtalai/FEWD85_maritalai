@@ -143,8 +143,10 @@ ul li{
 }
 
 .Quote{
-  height; 240px;
+  height: 200px;
   background-image: url(../images/testimonial_bg.jpg);
+  margin: 0px 0px 80px 0px;
+  padding: 10px;
 }
 
 .Quote1 {
@@ -168,19 +170,30 @@ ul li{
 .Signup {
   font-weight: 800;
   font-size: 12px;
-  border: 5px solid black;
+  width: 100px;
   background-color: #033048;
+  text-align: center;
   color: white;
+  position: relative;
+  left: 570px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .footer{
   font-weight: 800;
   font-size: 24px;
   color: #f9e42e;
+  text-align: center;
 }
 
 .Copyright{
   font-size: 9px;
   font-weight: 600;
   color: white;
+  text-align: center;
+}
+
+.Image {
+  text-align: center;
 }
