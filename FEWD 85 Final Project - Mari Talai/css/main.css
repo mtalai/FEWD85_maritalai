@@ -30,12 +30,28 @@ nav{
 	background-color: #E56717;
 }
 
+.menu ul.Blog{
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: -126px;
+}
+
+.menu ul.brands{
+	right: -95px;
+}
+
+.menu ul.releases{
+	right: -1px;
+}
+
 .menu ul ul {
 	display: none;
 	position: absolute;
 	top: 100%;
-	left:0;
+	right: -101px;
 }
+
 
 .menu ul ul li {
 	float:none;
@@ -87,7 +103,7 @@ a{
 	padding: 40px;
 	display: inline;
 	margin-left: 5px;
-	margin-right: 5px;
+	margin-right: 4px;
 }
 
 .BET_logo{
@@ -164,14 +180,19 @@ a{
 	font-size: 2em;
 }
 
+.mainNews p{
+	width: 80%;
+	margin-left: 138px;
+}
+
 footer{
 	background-color: #1796E6;
 	color: #fff;
-	margin-top: 97%;
-	height: 260px;
-	width: 100%;
+	margin-top: 100%;
+	/*height: 260px;
+	width: 100%;*/
 	text-align: center;
-	padding: 65px 0 45px;
+	/*padding: 65px 0 45px;*/
 }
 
 footer h1{
@@ -238,10 +259,11 @@ footer p{
 	}
 	ul.menu-item {
 		list-style: none;
-		display: none;
+		display: block;
 	}
-	.menu-item ul {
+	.menu-item ul li{
 		list-style: none;
+		display: block;
 	}
 }
 
@@ -283,5 +305,5 @@ footer p{
   font-weight:bold;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:1;
 }
