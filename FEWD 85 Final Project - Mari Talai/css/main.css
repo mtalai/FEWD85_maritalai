@@ -94,7 +94,7 @@ a{
 
 .bannerLogo{
 	height: 200px;
-	width: auto;
+	width: 100%;
 	background-color: #fff;
 	text-align: center;
 }
@@ -178,6 +178,7 @@ a{
 
 .mainNews h1 {
 	font-size: 2em;
+	margin-bottom: -30px;
 }
 
 .mainNews p{
@@ -185,28 +186,39 @@ a{
 	margin-left: 138px;
 }
 
+.links{
+	color: #1796E6;
+	padding: 0px !important;
+}
+
 footer{
 	background-color: #1796E6;
 	color: #fff;
-	margin-top: 100%;
-	/*height: 260px;
-	width: 100%;*/
+	margin-top: 94%;
 	text-align: center;
-	/*padding: 65px 0 45px;*/
 }
 
 footer h1{
 	padding-left: 40px;
+	padding-top: 35px;
 }
 
 footer ul li{
 	display: inline-block;
 	list-style: none;
-	margin: 0 26px 75px;
+	margin: 0 26px 26px;
 }
 
 footer p{
 	padding-left: 40px;
+}
+
+.instagram img{
+	height: 37px;
+}
+
+ul.social-media li a{
+	padding: 0px;
 }
 
 .map{
@@ -277,6 +289,7 @@ footer p{
 		float: left;
 		top: 10px;
 	}
+
 }	
 
 .hamburger{

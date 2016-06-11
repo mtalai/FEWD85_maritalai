@@ -21,7 +21,7 @@ $(document).ready(function() {
 	$('.heading-text-animation').textillate({
 		selector: '.texts',
 		loop: true,
-		minDisplayTime: 5000,
+		minDisplayTime: 100000,
 		initialDelay: 0,
 		autoStart: true,
 		inEffects: [ 'fadeInLeft'],
